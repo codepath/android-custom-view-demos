@@ -1,6 +1,6 @@
 # CustomViewsDemo
 
-Demonstrates how to use custom views and do basic drawing with two different demos:
+Android demo demonstrates how to use custom views and do basic drawing with two different demos:
 
  * ShapeDemo - Displays custom control for selecting a shape
  * Drawing Demo - Custom drawing with a simple canvas the user can paint on.
