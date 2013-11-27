@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.codepath.example.customviewdemo"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shapeSelector"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="Select" />
+
+    <com.codepath.example.customviewdemo.views.ShapeSelectorView
+        android:id="@+id/shapeSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSelect"
+        app:displayShapeName="true"
+        app:shapeColor="#7f0000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shapeSelector"
+        android:layout_alignLeft="@+id/shapeSelector"
+        android:layout_marginBottom="16dp"
+        android:text="Select a Shape:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shapeSelector"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/shapeSelector"
+        android:text="&lt;-- Toggle Between Them Here" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ShapeDisplayerView:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.codepath.example.customviewdemo.views.ShapeDisplayerView
+        android:id="@+id/shapeDisplayerView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3" />
+
+</RelativeLayout>
