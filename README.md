@@ -11,3 +11,12 @@ Android demo demonstrates how to use custom views and do basic drawing with two 
 
 Dig into the source code for more or checkout the related guides for [Basic Painting](https://github.com/thecodepath/android_guides/wiki/Basic-Painting-with-Views) or [Custom Views](https://github.com/thecodepath/android_guides/wiki/Defining-Custom-Views)!
 
+## Use Cases
+
+* Use case #1: Draw some shapes
+  * Displays shape onto a view
+* Use case #2: Simple painting using circles
+* Use case #3: Simple painting with paths  
+  * Simple painting on a view
+* Use case #4: Custom input view
+  * Shape Selector includes drawing, touch, xml attributes, measure 
