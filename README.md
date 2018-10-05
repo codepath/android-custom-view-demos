@@ -1,5 +1,7 @@
 # CustomViewsDemo
 
+This app is a part of the course and is of Week 3 This app helps the user to learn different types of views that are custom made.
+
 Android demo demonstrates how to use custom views and do basic drawing with two different demos:
 
  * Shape Demo - Displays custom control for selecting a shape
@@ -24,3 +26,4 @@ Dig into the source code for more or checkout the related guides for [Basic Pain
 
 * Use case #3: Simple painting with paths  
   * Simple painting on a view
+.
